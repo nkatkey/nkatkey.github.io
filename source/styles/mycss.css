@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+body {
+    font-family: Vollkorn, serif;
+    background: linear-gradient(90deg, #f3cbb0 0%, #ecdae9 100%, #eec9e8 100%);
+}
+.nav-link {
+    color:rgb(131, 211, 237)
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(116, 116, 116);
+}
+.navbar-brand img {
+    width: 40px;
+}
+.navbar-toggler {
+    background-color: rgb(131, 211, 237);
+}
+.sidebar {
+    color:rgb(68, 102, 194);
+    background: linear-gradient(120deg, rgb(253, 215, 189) 0%, #ecdae9 100%, #f4bceb 100%);
+}
+.card {
+    background: linear-gradient(120deg, rgb(253, 215, 189) 0%, #ecdae9 100%, #f4bceb 100%);
+}
+.card a{
+    text-decoration: none;
+    color: #000;
+}
+img {
+    object-fit: cover;
+    height: auto;
+    max-width: 100%;
+}
+.slide-text {
+    color:rgb(17, 34, 64);
+    margin: auto auto;
+}
+.footer-text {
+    color: rgb(99, 99, 99);
+}
+footer{
+
+    background: linear-gradient(120deg, rgb(255, 226, 226) 0%, #ecdae9 100%, #f4bceb 100%);
+  }
+  .media-links {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+  }
+  .call-anim {
+    animation: myAnim 2s ease 0s 1 normal none;
+}
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateX(48px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateX(26px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateX(13px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateX(6.5px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateX(4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87%,
+	98% {
+		animation-timing-function: ease-out;
+		transform: translateX(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+.sidebar-container {
+	padding-right: 15px;
+	border-right: 1px solid #ddd; /* Разделительная линия */
+  }
